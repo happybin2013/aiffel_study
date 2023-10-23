@@ -45,6 +45,7 @@ PER	15.79
 시가총액 = "289조"
 현재가 = "50,000원"
 PER = 15.79
+<<<<<<< HEAD
 print("#012")
 print("시가총액", 시가총액)
 print("현재가", 현재가)
@@ -127,3 +128,8 @@ string = 'abcd'
 string.replace('b', 'B')
 print("#030: ",string) #abcd 문자열은 수정 불가
 
+=======
+print("시가총액", 시가총액)
+print("현재가", 현재가)
+print("PER", PER)
+>>>>>>> fc984950d8743491fc69a8e37addb0029dcdb2a7
