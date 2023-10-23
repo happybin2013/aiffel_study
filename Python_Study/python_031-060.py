@@ -1,5 +1,5 @@
 # 아이펠 7기 python 기초교육
-# https://wikidocs.net/ 031~060
+# https://wikidocs.net/
 
 # 031~060
 #031 아래 코드의 실행 결과를 예상해보세요.

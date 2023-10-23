@@ -1,5 +1,5 @@
 # 아이펠 7기 python 기초교육
-# https://wikidocs.net/ 001~030
+# https://wikidocs.net/
 
 #001 출력: Hello World
 print("#001: ","Hello World")
