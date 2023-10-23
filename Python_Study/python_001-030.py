@@ -73,57 +73,57 @@ print("#017: ",str(num))
 
 #018 문자열 "15.79"를 실수(float) 타입으로 변환해보세요.
 float_str = "15.79"
-print(float(float_str))
+print("#018: ",float(float_str))
 
 #019 year라는 변수가 문자열 타입의 연도를 바인딩하고 있습니다. 이를 정수로 변환한 후 최근 3년의 연도를 화면에 출력해보세요.
 year = "2020"
 year_int = int(year)
-print(year_int-2, year_int-1, year_int,sep='\n')
+print("#019: ",year_int-2, year_int-1, year_int,sep='\n')
 
 #020 에이컨이 월 48,584원에 무이자 36개월의 조건으로 홈쇼핑에서 판매되고 있습니다. 총 금액은 계산한 후 이를 화면에 출력해보세요. (변수사용하기)
 month_price = 48584
 total_price = month_price * 36
-print(total_price)
+print("#020: ",total_price)
 
 #021 letters가 바인딩하는 문자열에서 첫번째와 세번째 문자를 출력하세요.
 letters = 'python'
-print(letters[0], letters[2])
+print("#021: ",letters[0], letters[2])
 
 #022 자동차 번호가 다음과 같을 때 뒤에 4자리만 출력하세요.
 license_plate = "24가 2210"
-print(license_plate[-4:])
+print("#022: ",license_plate[-4:])
 
 #023 아래의 문자열에서 '홀' 만 출력하세요.
 string = "홀짝홀짝홀짝"
-print(string[::2]) #짝만 출력[1::2]
+print("#023: ",string[::2]) #짝만 출력[1::2]
 
 #024 문자열을 거꾸로 뒤집어 출력하세요.
 string_python = "PYTHON"
-print(string_python[::-1])
+print("#024: ",string_python[::-1])
 
 #025 아래의 전화번호에서 하이푼 ('-')을 제거하고 출력하세요.
 phone_number = "010-1111-2222"
-print(phone_number.replace("-"," "))
+print("#025: ",phone_number.replace("-"," "))
 
 #026 25번 문제의 전화번호를 아래와 같이 모두 붙여 출력하세요.
 phone_number = "010-1111-2222"
-print(phone_number.replace("-",""))
+print("#026: ",phone_number.replace("-",""))
 
 #027 url 에 저장된 웹 페이지 주소에서 도메인을 출력하세요.
 url = "http://sharebook.kr"
-print(url.split(".")[-1])
+print("#027: ",url.split(".")[-1])
 
 #028 아래 코드의 실행 결과를 예상해보세요.
 #lang = 'python'
 #lang[0] = 'P'
-#print(lang) #에러 출력 문자열 수정 불가
+#print("#028: ",lang) #에러 출력 문자열 수정 불가
 
 #029 아래 문자열에서 소문자 'a'를 대문자 'A'로 변경하세요.
 string_aA = 'abcdfe2a354a32a'
-print(string_aA.replace("a","A"))
+print("#029: ",string_aA.replace("a","A"))
 
 #030 아래 코드의 실행 결과를 예상해보세요.
 string = 'abcd'
 string.replace('b', 'B')
-print(string) #abcd 문자열은 수정 불가
+print("#030: ",string) #abcd 문자열은 수정 불가
 
